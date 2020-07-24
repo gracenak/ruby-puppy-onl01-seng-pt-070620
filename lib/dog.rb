@@ -5,6 +5,8 @@ class Dog
   
   attr_accessor :name
   
+  attr_reader :name
+  
   def initialize(name)
     @name = name
     @@all << self
