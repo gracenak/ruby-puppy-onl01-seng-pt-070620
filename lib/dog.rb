@@ -26,7 +26,8 @@ end
 
   def save
     @@all << self
-    end
+    @name = name
+  end
 
 
     
