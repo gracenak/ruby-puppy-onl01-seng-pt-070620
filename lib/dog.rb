@@ -1,13 +1,14 @@
 #require 'pry'
 class Dog
   
-  attr_reader :name
+  attr_accessor :name
   
   @@all = []
   
   def initialize(name)
     @name = name
     @@all << self
+    name.save
   end
     
   def self.all
