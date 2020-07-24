@@ -22,6 +22,7 @@ class Dog
     @@all.each do |name|
     @@all.print_all
   end
+end
 
 
 
