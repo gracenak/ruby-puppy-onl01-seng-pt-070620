@@ -20,12 +20,7 @@ class Dog
 
   def self.print_all
     @@all.each do |name|
-      if print_all[name] 
-        print_all[name] += 1
-      else
-        print_all[name]
-   # binding.pry
-    end
+    print_all[name] 
   end
 end
 
