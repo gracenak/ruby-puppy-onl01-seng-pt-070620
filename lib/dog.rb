@@ -24,10 +24,9 @@ class Dog
   end
 end
 
-
-
   def save
     @@all << @dog
+    
 end
 
 
