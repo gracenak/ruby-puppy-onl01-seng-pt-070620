@@ -1,10 +1,9 @@
 #require 'pry'
 class Dog
   
-  @@all = []
-  
   attr_accessor :name
   
+  @@all = []
   
   def initialize(name)
     @name = name
@@ -29,9 +28,5 @@ end
     @@all << self
   end
   
-  def name
-    @name
-  end
-    
 end    
    
