@@ -20,9 +20,10 @@ class Dog
 
   def self.print_all
     @@all.each do |name|
-    @@all.print_all
+    @@all[name].print_all
   end
 end
+
 
 
 
